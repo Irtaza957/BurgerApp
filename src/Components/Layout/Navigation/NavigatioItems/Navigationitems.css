@@ -1,0 +1,60 @@
+.Navigationitems{
+    margin: 11px 0px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.userName{
+    color: white;
+    cursor: pointer;
+    background-color: #8F5C2C;
+    padding: 10px 10px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.userName:hover{
+    background-color: #a36b37;
+}
+
+.logout{
+    background-color: #a06936;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 12px;
+}
+.logout:hover{
+    background-color: #a8713e;
+}
+
+.logoutClick{
+    margin-top: 60px;
+    color: white;
+    cursor: pointer;
+    background-color: #8F5C2C;
+    padding: 10px 10px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.logoutClick:hover{
+    background-color: #a36b37;
+}
+
+@media (max-width:500px){
+    .Navigationitems{
+        flex-flow: column;
+       padding-top: 10px;
+     
+    }
+
+    .dropdown{
+        margin-top: 20px;
+    }
+}

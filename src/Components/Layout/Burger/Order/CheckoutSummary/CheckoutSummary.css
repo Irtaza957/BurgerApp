@@ -1,0 +1,48 @@
+.CheckoutSummary{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.alertBurger{
+    background-color:  #c15711;
+    color: rgb(255, 255, 255);
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+@media (min-width:600px){
+    .CheckoutSummary{
+        width: 500px;
+    }
+}
+ @media (max-width:550px){
+    .Button{
+        position: relative;
+        z-index: 100;
+    }
+   
+} 
