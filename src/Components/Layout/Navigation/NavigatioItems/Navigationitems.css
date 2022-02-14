@@ -53,8 +53,10 @@
        padding-top: 10px;
      
     }
-
     .dropdown{
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+    .logoutClick{
+        margin-top: 0px;
     }
 }
