@@ -115,6 +115,7 @@ const disabledInfo={
 for(let key in disabledInfo){
   //disabledInfo[key] is value of ingredients 
  disabledInfo[key]=disabledInfo[key]<=0
+ console.log(disabledInfo)
 }
 //disabledInfo = {salad:true, meat: false, ....}. if ingredient's value is false then it will be disabled
 let orderSummary=  <OrderSummary 

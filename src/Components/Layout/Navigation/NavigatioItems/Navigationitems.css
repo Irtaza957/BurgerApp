@@ -6,6 +6,7 @@
     align-items: center;
     height: 100%;
 }
+
 .userName{
     color: white;
     cursor: pointer;
@@ -14,6 +15,8 @@
     margin-left: 10px ;
     margin-right: 10px;
     border-radius: 10px;
+    border-color: #8F5C2C;
+    transition: 0.5s;
 }
 .userName:hover{
     background-color: #a36b37;
@@ -42,6 +45,7 @@
     margin-left: 10px ;
     margin-right: 10px;
     border-radius: 10px;
+    border-color: #8F5C2C;
 }
 .logoutClick:hover{
     background-color: #a36b37;

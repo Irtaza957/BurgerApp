@@ -26,12 +26,12 @@ const Login = (props) => {
         <div className="btnContainer">
             {props.hasAccount?(
                 <>
-               {props.load?(  <button onClick={props.handleLogin}>Sign In</button>):<AuthSpinner/>}
+               {props.load?(  <button onClick={props.handleLogin} className="LogButton">Sign In</button>):<AuthSpinner/>}
                 <p>Don't have an account?<span onClick={()=>props.setHasAccount(!props.hasAccount)}>Sign up</span></p>
                 </>
             ):(
                 <>
-               {props.load?( <button onClick={props.handleSignup}>Sign up</button>):<AuthSpinner/>}
+               {props.load?( <button className="LogButton" onClick={props.handleSignup}>Sign up</button>):<AuthSpinner/>}
                 <p>Have an account?<span onClick={()=>props.setHasAccount(!props.hasAccount)}>Sign in</span></p>
                 </>
             )}

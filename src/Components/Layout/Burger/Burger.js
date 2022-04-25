@@ -19,7 +19,7 @@ const Burger = (props) => {
     })
     //reduce function has 2 arguments. 1 argument shows previous value and 2 shows current value
     .reduce((arr,el)=>{
-        // console.log(el)
+        //  console.log(el)
         return arr.concat(el)
     },[])
     if(transformIngredients.length===0){
@@ -44,8 +44,7 @@ const Burger = (props) => {
 </>
             ):null
         }
-        
-                           <BurgerIngredients type="bread-top"/>
+            <BurgerIngredients type="bread-top"/>
             {transformIngredients}
             <BurgerIngredients type="bread-bottom"/>
         </div>

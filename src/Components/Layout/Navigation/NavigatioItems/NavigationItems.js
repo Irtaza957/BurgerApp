@@ -27,7 +27,7 @@ const NavigationItems = () => {
          <Navigationitem link="/">Burger Builder</Navigationitem>
          <Navigationitem link="/orders">Orders</Navigationitem>
        <div class="dropdown">
-  <button onClick={handlerHide} class={Hide?clicked:click}>
+  <button  onClick={handlerHide} class={Hide?clicked:click}>
   {name}
   </button>
  
